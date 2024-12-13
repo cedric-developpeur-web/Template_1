@@ -4,21 +4,30 @@ import './profil.scss';
 const Profil = () => {
   return (
     <>
-      <div className='title'>
-        <h1>Qui Nous Somme ?</h1>
-        <div className='x'>
-          <img src="" alt="" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quam quia eos odit sunt dicta iure pariatur voluptatibus quo aperiam recusandae ipsum excepturi, aliquam culpa vero dignissimos repellat tempora quaerat ullam cum, repellendus numquam ut impedit. Quidem excepturi, dicta tempora sequi tempore, modi voluptatem perferendis earum aliquid mollitia, fugiat totam qui? Repudiandae exercitationem eaque harum est? Iste molestiae magni veniam? In totam voluptates animi nobis libero odio molestias, sit ea expedita optio maxime adipisci voluptas ut incidunt fugiat accusamus esse eveniet ad culpa deserunt vero non, repudiandae nostrum? Sequi totam explicabo repellendus aperiam ratione, nobis ut nemo distinctio laborum? Sed!</p>
+      <section>
+        <div className='titre'>
+          <h1>Développeur Web FrontEnd</h1>
         </div>
-        <br />
         <div className='x'>
-          <img src="" alt="" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quam quia eos odit sunt dicta iure pariatur voluptatibus quo aperiam recusandae ipsum excepturi, aliquam culpa vero dignissimos repellat tempora quaerat ullam cum, repellendus numquam ut impedit. Quidem excepturi, dicta tempora sequi tempore, modi voluptatem perferendis earum aliquid mollitia, fugiat totam qui? Repudiandae exercitationem eaque harum est? Iste molestiae magni veniam? In totam voluptates animi nobis libero odio molestias, sit ea expedita optio maxime adipisci voluptas ut incidunt fugiat accusamus esse eveniet ad culpa deserunt vero non, repudiandae nostrum? Sequi totam explicabo repellendus aperiam ratione, nobis ut nemo distinctio laborum? Sed!</p>
+          <img src="/Many.webp" alt="" />
+          <p>Many est en charge du développement web de la partie frontend, qui est le visuel que l’utilisateur voit quand il arrive sur un site web. Many vient intégrer tous les éléments et s’occupe de l’ergonomie du site web pour avoir une meilleure expérience lors d’une visite sur un site web.</p>
         </div>
-      </div>
+      </section>
+      <br />
+      <section>
+        <div className='titre'>
+          <h1>Développeur Web BackEnd</h1>
+        </div>
+        <div className='x'>
+          <img src="/Alex.webp" alt="" />
+          <p>Alex est en charge du développement web de la partie backend, qui est le cerveau que l’utilisateur ne voit pas quand il arrive sur un site web. Alex vient manipuler toutes les données qui viennent communiquer avec les serveurs pour exécuter toutes les demandes en lien avec le site web.</p>
+        </div>
+      </section>
       <section className='main_container'>
-        <div></div>
-        <div></div>
+        <div className='title'>
+          <h2>Qui Nous Somme ?</h2>
+          <p className='text'>Nous sommes une entreprise à la pointe de la technologie dans le domaine du développement web, nous perfectionnons des sites vitrines ou e-commerce pour nos clients qui se trouvent aux quatre coins du globe. Notre expertise entend que, professionnelle du web, notre travail est un gage de qualité dans cet univers du développement.</p>
+        </div>
       </section>
     </>
   );
