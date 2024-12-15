@@ -1,0 +1,49 @@
+{
+  "presentation":[
+    {
+    "description":"",
+    "picture":[
+      {
+        "src":"/picture/Steve.webp",
+        "alt": "image montrant une personnage qui travail sur son ordinateur portable"
+      }
+    ]
+    },
+    {
+    "description":"",
+    "picture":[
+      {
+        "src":"/picture/Seb.webp",
+        "alt": "image montrant une personnage qui travail sur son ordinateur portable"
+      }
+    ]
+    },
+    {
+    "description":"Many est en charge du développement web de la partie frontend, qui est le visuel que l’utilisateur voit quand il arrive sur un site web. Many vient intégrer tous les éléments et s’occupe de l’ergonomie du site web pour avoir une meilleure expérience lors d’une visite sur un site web.",
+    "picture":[
+      {
+        "src":"/picture/Many.webp",
+        "alt": "image montrant une personnage qui travail sur son ordinateur portable"
+      }
+    ]
+    },
+    {
+    "description":"",
+    "picture":[
+      {
+        "src":"/picture/Alex.webp",
+        "alt": "image montrant une personnage qui travail sur son ordinateur portable"
+      }
+    ]
+    },
+    {
+    "description":"",
+    "picture":[
+      {
+        "src":"/picture/Deve.webp",
+        "alt": "image montrant une personnage qui travail sur son ordinateur portable"
+      }
+    ]
+    }
+  ]
+}

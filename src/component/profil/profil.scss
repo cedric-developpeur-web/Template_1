@@ -1,8 +1,22 @@
-.titre {
+.main_container {
   display: flex;
   justify-content: center;
-  margin: 150px 0px 0px 0px;
-  color: #fff;
+  margin: 150px 0px 150px;
+
+  .title {
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    background: #fff;
+    border-radius: 20px;
+
+    .text {
+      margin: auto;
+      line-height: 1.3;
+      text-align: justify;
+      max-width: 600px;
+    }
+  }
 }
 
 .x {
@@ -23,26 +37,5 @@
     line-height: 1.3;
     text-align: center;
     max-width: 900px;
-  }
-}
-
-.main_container {
-  display: flex;
-  justify-content: center;
-  margin: 200px 0px 0px 0px;
-
-  .title {
-    text-align: center;
-    width: 50%;
-    height: 200px;
-    background: #fff;
-    border-radius: 20px;
-
-    .text {
-      margin: auto;
-      line-height: 1.3;
-      text-align: justify;
-      max-width: 600px;
-    }
   }
 }
